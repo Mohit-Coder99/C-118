@@ -1,6 +1,7 @@
 body{
      background-size: 7in 7in;
      background-position: center;
+     height: 720px;
 }
 
 .heading{
@@ -30,6 +31,7 @@ body{
 
 .copy_right_footer{
      position: fixed;
+     z-index: 99;
      color: white;
      bottom: 0;
      width: 100%;
@@ -45,8 +47,8 @@ canvas{
      animation-name: change;
      animation-duration: 2s;
      animation-iteration-count: infinite;
-     margin-top: 200px;
-     margin-bottom: 100px;
+     margin-top: 180px;
+
 }
 
 @keyframes change{
